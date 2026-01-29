@@ -5,6 +5,7 @@ app = FastAPI(
     version="0.1.0",
 )
 
+
 @app.get("/hinsight")
-def health_check() -> dict:
+def hinsight() -> dict:
     return {"status": "ok"}
